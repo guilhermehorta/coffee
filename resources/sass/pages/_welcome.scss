@@ -1,0 +1,38 @@
+article{
+  font-family: sans-serif;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  h1{
+	font-family: serif;
+	margin-bottom: 5px;
+  }
+  
+  figure{
+    width: 50%;
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    img{
+      width: 100%;
+    }
+    
+    figcaption{
+      font-size: 12px;
+    }
+  }
+
+  video{
+    width: 50%;
+    height: 200px;
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 10px;
+
+    :focus{
+      outline: none;
+    }
+  }
+
+}

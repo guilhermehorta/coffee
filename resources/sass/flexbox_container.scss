@@ -1,0 +1,116 @@
+/**************************
+ *
+ * Flexbox Containers styling
+ *
+ **************************
+ */
+
+ // define a flexbox container and its direction
+.flex-container-row{
+	display: flex;
+	flex-direction: row;
+	//border: 2px dotted red;
+}
+
+.flex-container-row-reverse{
+	display: flex;
+	flex-direction: row-reverse;
+	//border: 2px dotted red;
+}
+
+.flex-container-column{
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-container-column-reverse{
+	display: flex;
+	flex-direction: column-reverse;
+	//border: 2px dotted green;
+}
+
+
+// flexbox flex-wrap rules
+.flex-nowrap{
+	flex-wrap: nowrap;
+}
+.flex-wrap{
+	flex-wrap: wrap;
+}
+.flex-wrap-reverse{
+	flex-wrap: wrap-reverse;
+}
+
+
+// flexbox justify-content rules
+.justify-start{
+	justify-content: flex-start;
+}
+.justify-end{
+	justify-content: flex-end;
+}
+.justify-center{
+	justify-content: center;
+}
+.justify-between{
+	justify-content: space-between;
+}
+.justify-around{
+	justify-content: space-around;
+}
+.justify-evenly{
+	justify-content: space-evenly;
+}
+
+
+// flexbox align-items rules
+.align-items-start{
+	align-items: flex-start;
+}
+.align-items-end{
+	align-items: flex-end;
+}
+.align-items-center{
+	align-items: center;
+}
+.align-items-stretch{
+	align-items: stretch;
+}
+.align-items-baseline{
+	align-items: baseline;
+}
+
+
+// flexbox align-content rules
+.align-content-start{
+	align-content: flex-start;
+}
+.align-content-end{
+	align-content: flex-end;
+}
+.align-content-center{
+	align-content: center;
+}
+.align-content-stretch{
+	align-content: stretch;
+}
+.align-content-between{
+	align-content: space-between;
+}
+.align-content-around{
+	align-content: space-around;
+}
+
+
+// flexbox items sizing
+.auto-size-items>*{
+	flex: 1 1 auto;
+}
+
+
+/********************************
+ *
+ * Flexbox Containers styling end
+ *
+ ********************************
+ */

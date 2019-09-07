@@ -1,0 +1,106 @@
+
+
+
+
+
+
+// styling para a tabela de veículos
+.vehicle-list{
+	grid-template-columns: 125px 225px repeat(2, 100px);
+}
+
+// styling para a tabela de materiais
+.material-list{
+	grid-template-columns: 150px 100px 150px;
+}
+
+// styling para a tabela de clientes a abastecer
+.won-client-list{
+	grid-template-rows: 50px 50px;
+}
+.top-row{
+	grid-row-start: 1;
+}
+.bottom-row{
+	grid-row-start: 2;
+}
+
+// styling para a tabela de jogadores ('partials.manager.playersList')
+.players-list{
+	grid-template-columns: 350px 100px 100px;
+}
+
+.first-column{
+	grid-column-start: 1;
+	justify-content: start;
+	padding-left: 5px;
+}
+
+.second-column{
+	grid-column-start: 2;
+}
+
+.third-column{
+	grid-column-start: 3;
+}
+
+// styling para a tabela de parâmetros de jogo ('partials.manager.information.rules')
+.ruleParameter-list{
+	grid-template-columns: 150px 150px;
+}
+
+// styling para a tabela de masterReport ('partials.manager.masterReports.xxx')
+.master-report{
+	grid-template-columns: 150px 30px;
+	grid-auto-rows: 30px;
+	grid-auto-columns: 140px;
+}
+
+// styling para a tabela de propostas comerciais ('partials.player.status.comercialOffer')
+.comercial-offer{
+	grid-template-columns: repeat(10, 80px);
+	grid-auto-rows: 60px;
+	.client{
+		font-size: 13px;
+	}
+	&>*{
+		display:flex;
+		align-items: center;
+		justify-content: center;
+		background-color: inherit;
+	}
+}
+
+// styling para a tabela de histórico de ordens ('partials.player.orderHistory.historicOrder')
+.historicOrder{
+	grid-template-columns: 150px 300px;
+	grid-auto-rows: 30px;
+}
+
+// styling para a tabela de status para o master ('partials.manager.status.status' e 'partials.manager.status.oldStatus')
+.master-status{
+	grid-template-columns: 100px 30px;
+	grid-auto-rows: 30px;
+
+	grid-auto-columns: 130px;	
+}
+
+// styling para a tabela de ordens para o master ('partials.manager.status.status')
+.master-orders{
+	grid-template-columns: 100px 30px;
+	grid-auto-rows: 30px;
+	grid-auto-columns: 45px;
+}
+
+// styling para a lista de ordens históricas ('partials.player.orderHistory.controlPanel')
+#historic-order-list{
+	grid-template-columns: repeat(4, 150px);
+	grid-auto-rows: 30px;
+	grid-row-gap: 10px;
+	&>*{
+		display:flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #899ea5;
+	}
+}

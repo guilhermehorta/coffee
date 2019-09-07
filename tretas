@@ -1,0 +1,55 @@
+Este site utiliza cookies para melhorar o serviço e exibir anúncios dirigidos. Ao utilizar este site, você concorda com a utilização de cookies. Leia a nossa Política de Cookies.
+
+Este site usa cookies para apresentar publicidade. Se nos quer ajudar a prosseguir o trabalho da Estátua de Sal dê o seu consentimento. Para saber mais sobre esta utilização, veja aqui a nossa Política de Cookies
+
+
+Estrutura sass
+sass/
+|
+|– abstracts/ (or utilities/)
+|   |– _variables.scss    // Sass Variables
+|   |– _functions.scss    // Sass Functions
+|   |– _mixins.scss       // Sass Mixins
+|
+|– base/
+|   |– _reset.scss        // Reset/normalize
+|   |– _typography.scss   // Typography rules
+|
+|– components/ (or modules/)
+|   |– _buttons.scss      // Buttons
+|   |– _carousel.scss     // Carousel
+|   |– _slider.scss       // Slider
+|
+|– layout/
+|   |– _navigation.scss   // Navigation
+|   |– _grid.scss         // Grid system
+|   |– _header.scss       // Header
+|   |– _footer.scss       // Footer
+|   |– _sidebar.scss      // Sidebar
+|   |– _forms.scss        // Forms
+|
+|– pages/
+|   |– _home.scss         // Home specific styles
+|   |– _about.scss        // About specific styles
+|   |– _contact.scss      // Contact specific styles
+|
+|– themes/
+|   |– _theme.scss        // Default theme
+|   |– _admin.scss        // Admin theme
+|
+|– vendors/
+|   |– _bootstrap.scss    // Bootstrap
+|   |– _jquery-ui.scss    // jQuery UI
+|
+`– main.scss              // Main Sass file
+
+
+
+This item has been downloaded from the Designmodo - https://designmodo.com/
+
+LICENSE:
+
+Use for Free, but Please Set a Link
+
+We distribute them under the license called Creative Commons Attribution-NoDerivs 3.0 Unported. 
+The UI Kits, mockups, icons, templates, themes and photos are free for personal use and also free for commercial use, but we require linking to our website - https://designmodo.com/ .

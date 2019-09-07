@@ -1,0 +1,119 @@
+@import "utilities/mixins";
+
+@import "components/grid-table";
+@import "components/number-input";
+@import "components/checkbox-input";
+@import "components/button";
+
+@import "layout/layout";
+@import "layout/header";
+@import "layout/logo";
+@import "layout/nav-bar";
+
+@import "pages/welcome";
+
+@import "tables/games-index";
+
+
+@import "grid-table";
+
+
+/*******************************
+ * Hide and show details styling
+ *******************************
+ */
+@import "show-hide";
+
+
+/**************************
+ * Report styling
+ **************************
+ */
+@import "report";
+
+
+
+/**********************************
+* The Routes / drag and drop styling
+***********************************
+*/
+@import "routes";
+
+/*
+* Other stuff
+*/
+
+
+
+/* top-button-group ('partials.main.top_button_group') */
+#top-button-group{
+  height: 60px;
+}
+
+.center, .section-title{
+  text-align: center;
+}
+
+.section{
+  padding-bottom: 15px;
+}
+.subsection{
+  padding-bottom: 10px;
+}
+
+/* destaques nas regras ('partials.player.information.rules') */
+.destaque{
+  font-weight: 700;
+}
+
+
+#new-debt, #new-cash, #new-coffee, #new-sugar, #new-bottles{
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  font-size: 20px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+#new-debt{
+  background-image: url("/images/Diapositivo3.jpg");
+}
+
+#new-cash{
+  background-image: url("/images/Diapositivo1.jpg");
+}
+
+#new-coffee{
+  background-image: url("/images/Diapositivo5.jpg");
+}
+
+#new-sugar{
+  background-image: url("/images/Diapositivo4.jpg");
+}
+
+#new-bottles{
+  background-image: url("/images/Diapositivo6.jpg");
+}
+
+.invalid-feedback{
+  display: inline;
+}
+
+.card-header{
+  text-align: center;
+  font-weight: 700;
+}
+
+.top-sticky{
+  align-content: stretch;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: #B78E6B;
+  z-index: 999;
+}
+

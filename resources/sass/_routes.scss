@@ -1,0 +1,25 @@
+/**************************
+ *
+ * Routes styling
+ *
+ **************************
+ */
+
+
+.route-item{
+	border: 1px solid black;
+	border-radius: 15px;
+	:hover{
+		cursor:move;
+		background-color: red !important;
+	}
+}
+
+#new-route, .delete-route{
+	&>*{
+		background-color: inherit;
+		border:none;
+		font-size: 12px;
+	}
+	
+}

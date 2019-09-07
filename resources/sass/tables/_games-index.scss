@@ -1,0 +1,35 @@
+// styling para a tabela de jogos
+
+#games-index{
+
+	margin: 0 auto;
+	grid-auto-rows: 45px;
+
+	@include for-tablet-portrait-only{
+	width: 100%;
+	}
+
+	@include for-tablet-landscape-up{
+	width: 100%;
+	}
+
+	@include for-desktop-up{
+	width: 800px;
+	}
+
+	grid-template-columns: repeat(5, 1fr);
+
+	&>*{
+		overflow: hidden;
+		white-space:nowrap;
+	}
+
+
+	div .joined-button.button{
+  		padding-top: 1px;
+  		padding-bottom: 4px;
+  		margin: 0px 4px;
+  		width: 45%;
+	}
+}
+

@@ -1,0 +1,49 @@
+// styling for hide and show. anchor list + collapse divs
+
+// Start hiding the collapsable divs
+.detalhes{
+  display: none;
+}
+
+.panel-row{
+  padding: 0;
+  background: #899ea5;
+}
+
+.panel-name{
+  margin: 0 !important;
+  span{
+    padding: 10px;
+  }
+}
+
+.panel-list{
+  margin: 0 !important;
+  span{
+    padding: 10px;
+    position: relative;
+    &:hover{
+      cursor: pointer; 
+    }
+    &:hover, focus{
+      background-color: lightblue !important;
+    }
+    
+    &.active{
+      background-color: blue !important;
+      color: white !important;
+      &::after{
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        border-top: 10px solid blue;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        transform: translateX(-50%);
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+/*
+* The App Container / Global layout
+*/
+
+#header{
+  height: 60px;
+  align-items: center;
+  span{
+    padding: 0px 5px;
+  }
+  .grow-1{
+    flex-grow: 1;
+  }
+  .right{
+    text-align: right;
+  }
+  a:hover{
+  text-decoration: none;
+  }
+  
+}

@@ -1,0 +1,57 @@
+// checkbox styling
+
+.checkbox-wrapper {
+  position:relative;
+  
+  input[type="checkbox"] {
+    position:absolute;
+    top: 0px;
+    right: 0px;
+    height: 26px;
+    width: 26px;
+    -webkit-appearance: none;
+    display: none;
+  }
+  
+  label {
+    position: relative;
+    font-size: 16px; 
+    font-weight: 400;
+    align-items: center;
+    padding-right: 30px;
+    margin-bottom: 0px;
+  }
+
+  label:before {
+    position: absolute; 
+    top: 2px; 
+    right: 0px;
+    display: flex; 
+    content: ' ';
+    height: 20px; 
+    width: 20px; 
+    border: solid 2px #178bca;
+    background: white;
+    margin-left: 10px;
+    pointer-events: none;
+  }
+
+  label:after {
+    position: absolute; 
+    top: 7px; 
+    right: 5px; 
+    display: flex; 
+    content: ' '; 
+    height: 10px; 
+    width: 10px;  
+    background: #178bca;
+    transform: scale(0);
+    transition: transform .3s ease;
+    pointer-events: none;
+  }
+
+  input[type="checkbox"]:checked + label:after {
+  transform: scale(1);
+  }
+
+}

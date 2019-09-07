@@ -1,0 +1,12 @@
+// styling for buttons
+.botao{
+	a{
+		padding: 5px;
+		text-decoration: none;
+		&:hover, focus{
+			text-decoration:none;
+			background: blue;
+      		color: white;
+		}
+	}
+}

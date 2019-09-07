@@ -1,0 +1,47 @@
+/**************************
+ *
+ * Navigation bar styling
+ *
+ **************************
+ */
+
+ ul.nav-bar{
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+	list-style-type: none;
+	border: none;
+	padding: 0px 10px;
+
+	li{
+	  background: linear-gradient(to bottom, silver, #e55400);
+      background-color: #e55400; /* IE8,IE9 */
+      margin-bottom: 5px;
+
+        a{
+      	display: block;
+      	text-decoration: none;
+      	outline: none;
+      	font-size: 80%;
+      	color: white;
+      	padding: 10px 15px; /* button size */
+      	transition: background-color 0.4s;
+
+      	&:hover{
+      	  background-color: rgba(255, 255, 255, 0.3);
+      	}
+        }
+      }
+
+      @include for-tablet-portrait-only{
+        flex-direction: row;
+        margin-bottom: 5px;
+        li{
+          a{
+            padding: 5px;
+          }
+        }
+      }
+ }
+
+  

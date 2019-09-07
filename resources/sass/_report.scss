@@ -1,0 +1,93 @@
+// Styling for the comercial reports
+
+.report{
+	display: grid;
+	padding: 10px;
+	justify-content: center;
+	//border: 1px solid darkblue;
+	
+	grid-template-columns: 75px;
+	grid-auto-columns: 50px;
+	grid-auto-rows: 30px;
+
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+
+	.client-label{
+		grid-column-start: 1;
+		grid-row-start: 1;
+		grid-row-end: span 2;
+	}
+
+	.factory-label{
+		grid-row-start: 1;
+		grid-column-start: 2;	
+	}
+
+	.media-label{
+		grid-row-end: span 2;
+	}
+
+	.column-span-2{
+		grid-column-end: span 2;
+	}
+	.column-span-3{
+		grid-column-end: span 3;
+	}
+	.column-span-4{
+		grid-column-end: span 4;
+	}
+	.column-span-5{
+		grid-column-end: span 5;
+	}
+	.column-span-6{
+		grid-column-end: span 6;
+	}
+
+	.column-start-1{
+		grid-column-start: 1;
+	}
+	.column-start-2{
+		grid-column-start: 2;
+	}
+	.column-start-3{
+		grid-column-start: 3;
+	}
+	.column-start-4{
+		grid-column-start: 4;
+	}
+	.column-start-5{
+		grid-column-start: 5;
+	}
+	.column-start-6{
+		grid-column-start: 6;
+	}
+	.column-start-7{
+		grid-column-start: 7;
+	}
+	.column-start-8{
+		grid-column-start: 8;
+	}
+
+	.left{
+		justify-content: start;
+		padding-left: 5px;
+	}
+
+	.winner{
+		font-weight: 1000;
+		color: green;
+	}
+
+	.lost{
+		background-color: #ff1a1d63;
+	}
+
+	*{
+		display:flex;
+		align-items: center;
+		justify-content: center;
+		background-color: lightblue;
+
+	}
+}
